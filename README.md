@@ -1,4 +1,5 @@
 Kanban Board with JWT Authentication
+
 This project is a Kanban board application with secure JWT (JSON Web Tokens) authentication. It allows users to log in securely, manage tasks on a Kanban board, and ensures protection against unauthorized access.
 
 📹 Demo Video: 
@@ -12,6 +13,7 @@ https://drive.google.com/file/d/1E6b5du13VitHTUlyk-b5bqa4ykz9K73Z/view?usp=shari
 📧 Contact Email: Luis322009@gotmail.com
 
 Features
+
 ✅ Secure JWT-based authentication
 ✅ Login page with form validation
 ✅ Protected Kanban board route
@@ -19,11 +21,6 @@ Features
 ✅ Error handling for invalid credentials
 ✅ Local storage for token persistence
 ✅ Automatic redirect to login when unauthenticated
-
-User Story
-AS A member of an agile team
-I WANT a Kanban board with a secure login page
-SO THAT I can securely access and manage my work tasks
 
 Installation
 Clone the repository:
@@ -59,34 +56,6 @@ Deployment
 
 🚀 Deployed on Render:
 🔗 Live Demo
-
-Follow Render's guide for PostgreSQL + Node.js deployment.
-
-Project Structure
-kanban-jwt-auth/  
-├── server/               # Backend (Node.js + Express)  
-│   ├── src/  
-│   │   ├── middleware/   # JWT auth middleware  
-│   │   ├── routes/       # Protected API routes  
-│   │   └── ...  
-├── client/               # Frontend (React)  
-│   ├── src/  
-│   │   ├── api/          # Auth API calls  
-│   │   ├── utils/        # Token management  
-│   │   └── pages/        # Login & Kanban UI  
-└── ...  
-
-How JWT Authentication Works
-
-Login: User submits credentials → Server validates & issues JWT.
-
-Storage: Client saves JWT in local storage.
-
-Requests: JWT sent in Authorization header for protected routes.
-
-Verification: Server checks JWT validity before granting access.
-
-Logout/Expiry: Token removed from storage or invalidated.
 
 Contact & Support
 📧 Email: Luis322009@hotmail.com

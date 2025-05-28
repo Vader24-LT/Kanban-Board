@@ -1,8 +1,11 @@
 Kanban Board with JWT Authentication
 This project is a Kanban board application with secure JWT (JSON Web Tokens) authentication. It allows users to log in securely, manage tasks on a Kanban board, and ensures protection against unauthorized access.
 
-📹 Demo Video: Watch the Demo
-📂 GitHub Repository:  
+📹 Demo Video: 
+https://app.screencastify.com/v2/watch/agXkJjE6uEJecSo3Wlz9
+https://drive.google.com/file/d/1E6b5du13VitHTUlyk-b5bqa4ykz9K73Z/view?usp=sharing
+
+📂 GitHub Repository:  https://github.com/Vader24-LT/Kanban-Board
 📧 Contact Email: Luis322009@gotmail.com
 
 Features
